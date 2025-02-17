@@ -13,7 +13,11 @@ However, the synthesis of green "liquid nitrogen" is an important process itself
 Attempts to use gas discharge to synthesize nitrogen fertilizers were made more than 100 years ago. The Birkeland-Eyde process used arc discharge to produce NO, which was then converted into nitric acid. 
 However, the Birkeland-Eyde process lost competition to the Haber-Bosch process, as it consumed 60-80 kWh/kg N.
 
-In the last several years, interest in plasma-based nitrogen capture has been increasing, but unfortunately, we are still close to the Birkeland-Eyde process in terms of energy efficiency. 
+In recent years, interest in plasma-based nitrogen capture has been growing. While theoretical advancements have been made, the practical implementation of plasma-based methods remains close to the Birkeland-Eyde process in terms of energy efficiency and scalability.
+
+The importance of more efficient, affordable, and sustainable nitrogen fertilizers cannot be overstated. Approximately 50% of the global population relies on food grown with synthetic nitrogen fertilizers.
+
+However, the Haber-Bosch process accounts for about 1-2% of global energy consumption and is responsible for 1-2% of greenhouse gas emissions from ammonia production and distribution alone. Moreover, the centralization of the nitrogen fertilizer market—primarily concentrated near natural gas extraction sites—reduces the resilience of food supply chains in developing countries, where both access to fertilizers and their efficient use remain major challenges.
 
 This document describes a method to create a highly efficient plasma generator capable of synthesizing **NO3-** in water with energy efficiency comparable to the Haber-Bosch process.
 
