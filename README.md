@@ -2,6 +2,7 @@
 
 ## Background
 Project Demetra is a spin-off of an open-source plasma purification [project Aetheris](https://github.com/kinetikalab/project_aetheris).
+
 Initially, **NO2-/NO3-** were considered unnecessary and harmful byproducts of the water purification process, and it was suggested to remove nitrogen from the air to eliminate **NO2-/NO3-** from the treated water.
 
 However, the synthesis of green "liquid nitrogen" is an important process itself, and there are significant differences compared to water purification in terms of obtaining **NO2-/NO3-** ions in water. For this reason, all work related to green fertilizer has been moved to a separate repository.
