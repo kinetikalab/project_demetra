@@ -86,7 +86,6 @@ The next question is: how can we direct more energy into N₂(A³) excitation ra
 BOLSIG+ provides a clear answer—increase the mean electron energy to 4–5 eV. For example, when the mean Eₑ = 2 eV, only 16% of the total discharge energy goes into N₂(A³) excitation, compared to 53% when Eₑ = 5 eV.
 
 However, Eₑ > 5 eV is not typical in gas discharges at atmospheric pressure, because the self-consistent electric field directly limits electron energy.
-Simply put, increasing energy leads to an exponential growth of electron density (according to Townsend’s law), but a high electron density shields the external field, preventing further energy increase. The process is a bit more complex, but putting the mathematical details aside, physically, it behaves as described.
 
 **The final challenge – how to overcome the self-consistent electric field limitation?**
 Surprisingly, the solution is quite simple: add water vapor to the discharge zone, making up ~30–40% of the total molecular concentration. The result is humid, warm air at ~60–70°C.
