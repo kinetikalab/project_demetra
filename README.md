@@ -92,7 +92,7 @@ Simply put, increasing energy leads to an exponential growth of electron density
 Surprisingly, the solution is quite simple: add water vapor to the discharge zone, making up ~30–40% of the total molecular concentration. The result is humid, warm air at ~60–70°C.
 
 1. Water molecules have a high electron attachment cross-section at energies >5 eV, so the mean electron energy shifts to the right to compensate for attachment losses and rebalance the Townsend equilibrium.
-2. Rotational excitations significantly reduce electron mobility, thereby slowing electron density growth and preventing the discharge from collapsing into an arc, which would lead to low mean electron energy but high heat losses.
+2. Rotational excitations significantly reduce electron mobility, thereby slowing electron density growth and therefore higher self-consistent electric field to sustain discharge.
 
 **TBD – Demonstrate a 2D Plasma Drift-Diffusion model to support this claim.**
 
