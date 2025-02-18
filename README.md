@@ -15,7 +15,7 @@ However, the Birkeland-Eyde process lost competition to the Haber-Bosch process,
 
 In recent years, interest in plasma-based nitrogen capture has been growing. While theoretical advancements have been made, the practical implementation of plasma-based methods remains close to the Birkeland-Eyde process in terms of energy efficiency and scalability.
 
-The importance of more efficient, affordable, and sustainable nitrogen fertilizers cannot be overstated. Approximately 50% of the global population relies on food grown with synthetic nitrogen fertilizers.
+The importance of more efficient, affordable, and sustainable nitrogen fertilizers cannot be overstated. The use of synthetic nitrogen fertilizers is directly responsible for sustaining nearly half of the world's population.
 
 However, the Haber-Bosch process accounts for about 1-2% of global energy consumption and is responsible for 1-2% of greenhouse gas emissions from ammonia production and distribution alone. Moreover, the centralization of the nitrogen fertilizer market—primarily concentrated near natural gas extraction sites—reduces the resilience of food supply chains in developing countries, where both access to fertilizers and their efficient use remain major challenges.
 
