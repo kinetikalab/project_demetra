@@ -194,7 +194,7 @@ Ultimately, the design remains similar to [project Aetheris](https://github.com/
 - **Volume:** 6 L
 
 **Measured Concentrations:**  
-- **NO2-:** 10-20 ppm (approximate, pending verification with ion-selective electrode [ISE])  
-- **NO3-:** ~150-200 ppm (approximate, pending verification)  
+- **NO2-:** 10-20 ppm (approximate, pending verification)  
+- **NO3-:** ~150-200 ppm (approximate, pending verification)
 
 These results appear promising but require further verification.
