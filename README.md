@@ -88,10 +88,45 @@ BOLSIG+ provides a clear answer—increase the mean electron energy to 4–5 eV.
 However, Eₑ > 5 eV is not typical in gas discharges at atmospheric pressure, because the self-consistent electric field directly limits electron energy.
 
 **The final challenge – how to overcome the self-consistent electric field limitation?**
-Surprisingly, the solution is quite simple: add water vapor to the discharge zone, making up ~30–40% of the total molecular concentration. The result is humid, warm air at ~60–70°C.
 
-1. Water molecules have a high electron attachment cross-section at energies >5 eV, so the mean electron energy shifts to the right to compensate for attachment losses and rebalance the Townsend equilibrium.
-2. Rotational excitations significantly reduce electron mobility, thereby slowing electron density growth and therefore higher self-consistent electric field to sustain discharge.
+Surprisingly, the solution is relatively simple: introducing water vapor into the discharge zone at a concentration of approximately 30–40% of the total molecular content. This results in a humid, warm air stream at ~60–70°C.
+
+However, this statement requires a more detailed explanation. Consider a simple drift-diffusion model.
+
+**Continuity Equations**
+
+![Equation](https://latex.codecogs.com/svg.latex?\frac{\partial%20n_e}{\partial%20t}%20+%20\nabla%20\cdot%20\mathbf{\Gamma}_e%20=%20n_gn_e\nu_{\text{ion}}-n_gn_e\nu_{\text{loss}})
+
+where
+
+![Equation](https://latex.codecogs.com/svg.latex?n_e,%20n_g) - electron and gas densities
+
+![Equation](https://latex.codecogs.com/svg.latex?\nu_{\text{ion}},%20\nu_{\text{loss}}) - ionization and attachment frequencies
+
+
+**Flux Equations**
+
+![Equation](https://latex.codecogs.com/svg.latex?\mathbf{\Gamma}_e%20=%20-D_e%20\nabla%20n_e%20-%20\mu_e%20n_e%20\mathbf{E}) 
+
+where
+
+![Equation](https://latex.codecogs.com/svg.latex?D_e,\mu_e) - diffusion and mobility coefficients
+
+In a medium with a high concentration of H₂O molecules, the diffusion and mobility coefficients decrease significantly due to the high cross-section of rotational excitations in water molecules.
+
+![Diffusion and Mobility in Dry (0% H2O) and Wet Air (37% H2O) - BOLSIG+ Itikawa and Lison Databases](./images/mobility_diffusion.jpg)
+
+*Diffusion and Mobility in Dry [0% H2O] and Wet Air [37% H2O] - BOLSIG+ Itikawa and Lisbon Databases, including N₂ and O₂ rotational states*
+
+From a physical intuition perspective, based on the **Continuity Equations**, electron density and the resulting self-consistent field are predominantly governed by ionization and attachment processes rather than by flux dynamics.
+
+![Total Townsend Coefficients in Dry (0% H2O) and Wet Air (37% H2O) - BOLSIG+ Itikawa and Lison Databases](./images/attachment_ionization.jpg)
+
+*Total Townsend Coefficients in Dry [0% H2O] and Wet Air [37% H2O] - BOLSIG+ Itikawa and Lisbon Databases, including N₂ and O₂ rotational states*
+
+Fortunately, in heavily humidified air, the Townsend balance (i.e., the ratio of ionization to attachment rates) shifts favorably, with ionization exceeding attachment by a factor of 2–3 at approximately 5 eV.
+
+As a result, in such an environment, the discharge naturally optimizes itself within the region of maximal NO generation efficiency.
 
 **TBD – Demonstrate a 2D Plasma Drift-Diffusion model to support this claim.**
 
@@ -102,6 +137,7 @@ O(¹D) + H₂O → OH + OH
 ```
 These OH molecules are crucial for the second NO capture step and HNO₂ synthesis.
 
+That is the good explanation of high NO3- selectivity in heavy-humid air discharges.
 
 ## Energy Balance: Back-of-the-Napkin Estimate
 
@@ -125,6 +161,8 @@ O⁻ + H₂O → OH⁻ + OH
 OH⁻ + e⁻ → OH + 2e⁻  
 OH⁻ + O₂⁺/N₂⁺ → OH + O₂/N₂  
 ```
+
+The overall energy consumption **~10 kWh/kg of N (bottom line)**.
 
 ## Key Lessons Learned
 For efficient NO2-/NO3- capture from the air, the following conditions must be met:
