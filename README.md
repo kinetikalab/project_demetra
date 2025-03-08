@@ -149,18 +149,14 @@ Returning to [project Aetheris](https://github.com/kinetikalab/project_aetheris)
 Ultimately, the design remains similar to [project Aetheris](https://github.com/kinetikalab/project_aetheris) but employs a different [discharge_chambers](./discharge_chambers/). The selected configuration is a **spiral gliding arc** (refer to the `discharge_chamber` folder for details).
 
 ## Latest Experimental Results
-**Date:** February 6, 2024
+**Date:** March 5, 2024
 
-- **Power Consumption:** 50 W (pump) + 36 W (discharge)
+- **Power Consumption:** 90 W (pump) + 60 W (discharge)
 - **Treatment Time:** 3 minutes
 - **Volume:** 6 L
 
 **Measured Concentrations:**  
 - **NO2-:** 10-20 ppm (approximate, pending verification with ion-selective electrode [ISE])  
-- **NO3-:** 100-200 ppm (approximate, pending verification with ISE)  
-
-**Cost Analysis:** 
-
-N Production Cost (Electricity at $0.05/kWh): $1.03 - $2.06 per kg of N  
+- **NO3-:** ~150-200 ppm (approximate, pending verification)  
 
 These results appear promising but require further verification.
