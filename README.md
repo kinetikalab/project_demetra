@@ -128,7 +128,7 @@ Fortunately, in heavily humidified air, the Townsend balance (i.e., the ratio of
 
 As a result, in such an environment, the discharge naturally optimizes itself within the region of maximal NO generation efficiency.
 
-**TBD – Demonstrate a 2D Plasma Drift-Diffusion model to support this claim.**
+**TBD – Demonstrate a 2D Plasma Drift-Diffusion model to prove physics intuition**
 
 **Final Bonus**
 In the presence of H₂O, O(¹D) predominantly generates OH radicals:
@@ -194,7 +194,7 @@ Ultimately, the design remains similar to [project Aetheris](https://github.com/
 - **Volume:** 6 L
 
 **Measured Concentrations:**  
-- **NO2-:** 10-20 ppm (approximate, pending verification with ion-selective electrode [ISE])  
-- **NO3-:** ~150-200 ppm (approximate, pending verification)  
+- **NO2-:** 10-20 ppm (approximate, pending verification)  
+- **NO3-:** ~150-200 ppm (approximate, pending verification)
 
 These results appear promising but require further verification.
