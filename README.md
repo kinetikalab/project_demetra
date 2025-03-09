@@ -189,7 +189,7 @@ Ultimately, the design remains similar to [project Aetheris](https://github.com/
 ## Latest Experimental Results
 **Date:** March 5, 2024
 
-- **Power Consumption:** 90 W (pump) + 60 W (discharge)
+- **Power Consumption:** 60 W (pump) + 90 W (discharge)
 - **Treatment Time:** 3 minutes
 - **Volume:** 6 L
 
