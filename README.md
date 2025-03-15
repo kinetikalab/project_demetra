@@ -1,13 +1,6 @@
 # Project Demetra
 
-## Background
-Project Demetra is a spin-off of an open-source plasma purification [project Aetheris](https://github.com/kinetikalab/project_aetheris).
-
-Initially, **NO2-/NO3-** were considered unnecessary and harmful byproducts of the water purification process, and it was suggested to remove nitrogen from the air to eliminate **NO2-/NO3-** from the treated water.
-
-However, the synthesis of green "liquid nitrogen" is an important process itself, and there are significant differences compared to water purification in terms of obtaining **NO2-/NO3-** ions in water. For this reason, all work related to green fertilizer has been moved to a separate repository.
-
-## Nitrogen Capture in Gas Discharge: Fundamentals
+## Nitrogen Fixation in Gas Discharge: Fundamentals
 
 ### Historical Sketch
 Attempts to use gas discharge to synthesize nitrogen fertilizers were made more than 100 years ago. The Birkeland-Eyde process used arc discharge to produce NO, which was then converted into nitric acid. 
@@ -166,25 +159,23 @@ The overall energy consumption **~10 kWh/kg of N (bottom line)**.
 
 ## Key Lessons Learned
 For efficient NO2-/NO3- capture from the air, the following conditions must be met:
-1. Discharge in Hot Wet Air
-2. Efficient mixing to saturate the water with oxigen and ensure rapid dissolution of HNO2
-3. Discharge Chamber design that from one hand avoid hot arc and from another hand has not dielectric barrier to avoid discharge initialtion losses
+1. Discharge in Hot, Humid Air.
+2. Efficient mixing to saturate the water with oxygen and ensure rapid dissolution of HNO2 and NO₂⁻ oxidation.
+3. Optimized Discharge Chamber Design: On the one hand, it must prevent hot arcs, and on the other, it should not include a dielectric barrier to avoid discharge initiation losses.
 
-## Design Principles
-Returning to [project Aetheris](https://github.com/kinetikalab/project_aetheris) and plasma ignition in highly humidified air:
+## Basic Design Principles
 
-1. **High OH Radical Concentration**: A high concentration of OH radicals is achieved easily (refer to the [project Aetheris](https://github.com/kinetikalab/project_aetheris) repository for a detailed explanation).
+1. **Ignition of Gas Discharge in air-vapor mixture**
 
-2. **Increased Electron Energy in Discharge**: The presence of high water vapor concentrations increases electron energy in the discharge. This phenomenon is not immediately obvious and requires further explanation.
-   - The self-consistent electric field in plasma is a fundamental issue. Increasing the external electromagnetic field strength alone does not necessarily increase mean electron energy, as electron density screens the external field.
-   - Consequently, the equilibrium mean energy is governed by the ionization-attachment balance rather than the external field strength.
-   - Water vapor shifts the mean electron energy upward due to the high attachment rates of water molecules at Ee > 5 eV (TBD: show plasma model).
+2. **Stable Thermal Discharge for Energy Efficiency**: To ensure energy efficiency, a stable non-thermal and non-DBD discharge must be used, such as a gliding arc or streamer discharge.
 
-3. **Stable Thermal Discharge for Energy Efficiency**: To ensure energy efficiency, a stable non-thermal and non-DBD discharge must be used, such as a gliding arc or streamer discharge.
+3. **Minimization of Byproduct Losses**: Once the N2 molecule is dissociated, byproducts such as NO2, N2O5, NO3, and N2O must be recirculated into the discharge to regenerate NO (refer to the Secondary Reactions section).
 
-4. **Minimization of Byproduct Losses**: Once the N2 molecule is dissociated, byproducts such as NO2, N2O5, NO3, and N2O must be recirculated into the discharge to regenerate NO (refer to the Secondary Reactions section).
+4. **Efficient mixing water with gas discharge products**: Ensuring HNO2 dissolution and enrich the water with O₂.
 
-Ultimately, the design remains similar to [project Aetheris](https://github.com/kinetikalab/project_aetheris) but employs a different [discharge_chambers](./discharge_chambers/). The selected configuration is a **spiral gliding arc** (refer to the `discharge_chamber` folder for details).
+![Schematic Design](./images/design.jpg)
+
+A spiral gliding arc is used [discharge_chambers](./discharge_chambers/).
 
 ## Latest Experimental Results
 **Date:** March 5, 2024
