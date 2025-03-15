@@ -173,7 +173,7 @@ For efficient NO2-/NO3- capture from the air, the following conditions must be m
 
 4. **Efficient mixing water with gas discharge products**: Ensuring HNO2 dissolution and enrich the water with O₂.
 
-![Schematic Design](./images/design.jpg)
+![Schematic Design](./images/design.png)
 
 A spiral gliding arc is used [discharge_chambers](./discharge_chambers/).
 
