@@ -132,6 +132,30 @@ These OH molecules are crucial for the second NO capture step and HNO₂ synthes
 
 That is the good explanation of high NO3- selectivity in heavy-humid air discharges.
 
+### Collisional quenching
+
+An important yet often overlooked concept in the literature is a simple strategy to mitigate the effects of collisional quenching.
+Collisional quenching refers to the relaxation of excited molecular states through collisions with other particles. For example:
+
+N₂(v=1) + M → N₂ + M
+
+In such processes, the excitation energy is converted into heat due to collisions with neutral species.
+
+This presents a significant challenge, particularly because nitrogen molecules (N₂) are typically excited not solely through direct electron impact, but predominantly via stepwise excitation processes:
+
+N₂(v=1) + e⁻ → N₂(v=2) + e⁻
+N₂(v=2) + e⁻ → N₂(v=3) + e⁻
+N₂(v=3) + e⁻ → N₂(v=4) + e⁻
+...
+
+Each excitation step requires only ~0.2–0.3 eV of electron energy, meaning that the lower-energy tail of the electron energy distribution function (EEDF) can be utilized efficiently.
+
+However, as previously noted, excited N₂ molecules are prone to loss through collisional quenching before they reach higher vibrational states. To counter this, a high electron density is required—ensuring that the likelihood of electron–molecule collisions increases and that molecules have a greater chance to undergo multiple excitation steps (typically 5–7) before being quenched.
+
+**Thus, increasing electron density should significantly enhance nitrogen fixation efficiency by enabling successive vibrational excitations before quenching dominates.**
+
+This insight naturally points toward the use of high-frequency discharges extended in space—such as high-frequency gliding arcs—as a promising approach to maximize vibrational excitation pathways.
+
 ## Energy Balance: Back-of-the-Napkin Estimate
 
 Let's consider a discharge with a mean electron energy of **5 eV** in an **N₂/O₂/H₂O (50%/13%/37%)** mixture.  
@@ -167,7 +191,7 @@ For efficient NO2-/NO3- capture from the air, the following conditions must be m
 
 1. **Ignition of Gas Discharge in air-vapor mixture**
 
-2. **Stable Thermal Discharge for Energy Efficiency**: To ensure energy efficiency, a stable non-thermal and non-DBD discharge must be used, such as a gliding arc or streamer discharge.
+2. **Stable Thermal Discharge for Energy Efficiency**: To ensure energy efficiency, a stable non-thermal and non-DBD discharge must be used, such as a gliding arc or streamer discharge (which are alse increase electron density and launch step-by-step excutation)
 
 3. **Minimization of Byproduct Losses**: Once the N2 molecule is dissociated, byproducts such as NO2, N2O5, NO3, and N2O must be recirculated into the discharge to regenerate NO (refer to the Secondary Reactions section).
 
