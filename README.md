@@ -33,13 +33,26 @@ So we need NO and OH.
 
 Let's focus on NO. NO is the Holy Grail of nitrogen capture; all plasma-based nitrogen capture technologies somehow focus on NO production.
 
-We are not considering the thermal reaction:
-```
-N₂ + O₂ → 2NO
-```
-due to the huge energy losses required for heating. 
+In the 1940s, Soviet physicist Zeldovich described in detail the formation of NO in an N₂/O₂ mixture via the following mechanism:
 
-However, at an acceptable temperature, the fastest way to synthesize NO is via the Zeldovich mechanism:
+N₂ + O → NO + N, k = 3.0E-16 exp(-38300/T)  (1)
+O₂ + N → NO + O, k = 4.5E-17 exp(-3272/T)   (2)
+
+Under typical conditions in discharge channel (~1000–2000 K), reaction (2) is approximately million times faster. Most researchers focus on [2], but this is a trap.
+
+N₂ is a highly stable molecule with a very strong triple bond. To break it, we need to supply two electrons to generate two N atoms:
+
+N₂ +  e → N₂+ + 2e, Ee > 15.6 eV (rare in gas discharge)
+
+N₂+ +  e → N + N
+
+This drastically reduces overall energy efficiency, which is why the Birkeland–Eyde process lost to the Haber–Bosch process.
+
+However, accelerating reaction [1] is not only possible but also relatively straightforward. Excited N₂ molecules, which are abundant in gas discharges, significantly enhance reaction [1].
+
+For example, vibrational states with v > 7–8 accelerate [1] by up to 100,000 times, making it comparable to [2]
+
+Finally, the most efficient way to break N₂ is:
 ```
 N₂* + O → NO + N
 ```
