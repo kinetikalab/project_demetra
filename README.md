@@ -36,6 +36,7 @@ Let's focus on NO. NO is the Holy Grail of nitrogen capture; all plasma-based ni
 In the 1940s, Soviet physicist Zeldovich described in detail the formation of NO in an N₂/O₂ mixture via the following mechanism:
 
 N₂ + O → NO + N, k = 3.0E-16 exp(-38300/T)  (1)
+
 O₂ + N → NO + O, k = 4.5E-17 exp(-3272/T)   (2)
 
 Under typical conditions in discharge channel (~1000–2000 K), reaction (2) is approximately million times faster. Most researchers focus on [2], but this is a trap.
