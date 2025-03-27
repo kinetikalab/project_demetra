@@ -218,12 +218,15 @@ A spiral gliding arc is used [discharge_chambers](./discharge_chambers/).
 ## Latest Experimental Results
 **Date:** March 5, 2024
 
-- **Power Consumption:** 60 W (pump) + 90 W (discharge)
+- **Power Consumption:** 60 W (pump) + 108 W (discharge)
 - **Treatment Time:** 3 minutes
 - **Volume:** 6 L
 
 **Measured Concentrations:**  
-- **NO2-:** 10-20 ppm (approximate, pending verification)  
-- **NO3-:** ~150-200 ppm (approximate, pending verification)
+- **NO2-:** 10-20 ppm (approximate, pending verification with IC)  
+- **NO3-:** ~200 ppm (approximate, pending verification with IC)
 
-These results appear promising but require further verification.
+**Energy Efficiency:**
+- **Discharge:** ~20 kWh/kg N
+- **Total:** ~10 kWh/kg N
+- **Cost:** 1.5 USD/kg N (energy price 0.05$/kWh)
