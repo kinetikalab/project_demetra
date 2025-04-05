@@ -228,5 +228,5 @@ A spiral gliding arc is used [discharge_chambers](./discharge_chambers/).
 
 **Energy Efficiency:**
 - **Discharge:** ~20 kWh/kg N
-- **Total:** ~10 kWh/kg N
+- **Total:** ~30 kWh/kg N
 - **Cost:** 1.5 USD/kg N (energy price 0.05$/kWh)
