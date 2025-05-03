@@ -216,7 +216,7 @@ For efficient NO2-/NO3- capture from the air, the following conditions must be m
 A spiral gliding arc is used [discharge_chambers](./discharge_chambers/).
 
 ## Latest Experimental Results
-**Date:** March 5, 2024
+**Date:** May 3, 2025
 
 - **Power Consumption:** 60 W (pump) + 76 W (discharge)
 - **Treatment Time:** 3 minutes
