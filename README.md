@@ -218,15 +218,13 @@ A spiral gliding arc is used [discharge_chambers](./discharge_chambers/).
 ## Latest Experimental Results
 **Date:** March 5, 2024
 
-- **Power Consumption:** 60 W (pump) + 108 W (discharge)
+- **Power Consumption:** 60 W (pump) + 76 W (discharge)
 - **Treatment Time:** 3 minutes
-- **Volume:** 6 L
+- **Volume:** 1.5 L
 
 **Measured Concentrations:**  
-- **NO2-:** 10-20 ppm (approximate, pending verification with IC)  
-- **NO3-:** ~200 ppm (approximate, pending verification with IC)
+- **NO2-:** 0-1 ppm (approximate, pending verification with IC)  
+- **NO3-:** ~400 ppm (measured by HORBA NO3- ISE, pending verification with IC)
 
 **Energy Efficiency:**
-- **Discharge:** ~20 kWh/kg N
-- **Total:** ~30 kWh/kg N
-- **Cost:** 1.5 USD/kg N (energy price 0.05$/kWh)
+- **Discharge:** ~56 kWh/kg N. However estimated losses of the H-Bridge due to low power ~20-30 W, i.e real plasma results ~25-30 kWh/kg N
